@@ -1,0 +1,246 @@
+<h1 class="sc_title sc_title_regular text-left">Your article title</h1>
+                                                <div class="sc_tabs sc_tabs_style_1" style="margin-bottom:3em;"
+                                                    data-active="0">
+                                                    <ul class="sc_tabs_titles">
+                                                        <li class="tab_names first">
+                                                            <a href="#tab_politics" class="theme_button"
+                                                                id="tab_politics_tab">Politics</a>
+                                                        </li>
+                                                        <li class="tab_names">
+                                                            <a href="#tab_charity" class="theme_button"
+                                                                id="tab_charity_tab">Charity</a>
+                                                        </li>
+                                                        <li class="tab_names last">
+                                                            <a href="#tab_persons" class="theme_button"
+                                                                id="tab_persons_tab">Persons</a>
+                                                        </li>
+                                                    </ul>
+                                                    <!-- Tab Politics -->
+                                                    <div id="tab_politics" class="sc_tabs_content odd first">
+                                                        <div id="tab_politics_scroll"
+                                                            class="sc_scroll sc_scroll_vertical height_230">
+                                                            <div class="sc_scroll_wrapper swiper-wrapper">
+                                                                <div class="sc_scroll_slide swiper-slide">
+                                                                    <div id="sc_blogger_3"
+                                                                        class="sc_blogger sc_blogger_vertical style_image style_image_tiny">
+                                                                        <article class="sc_blogger_item">
+                                                                            <div class="thumb">
+                                                                                <a href="#">
+                                                                                    <img alt=""
+                                                                                        src="images/post-141-250x141.jpg">
+                                                                                </a>
+                                                                            </div>
+                                                                            <h4 class="sc_blogger_title sc_title">
+                                                                                <a href="#">Quisque ac arcu ac eros
+                                                                                    pretium volutpat</a>
+                                                                            </h4>
+                                                                            <div class="sc_blogger_content">
+                                                                                Quisque ac arcu ac eros pretium
+                                                                                volutpat. Sed a dolor euismod, volutpat
+                                                                                purus et, volutpat arcu. Maecenas
+                                                                                ultrices eros ultrices arcu vehicula
+                                                                                ultricies. Aliquam lobortis, felis a
+                                                                                scelerisque...
+                                                                            </div>
+                                                                        </article>
+                                                                        <article class="sc_blogger_item">
+                                                                            <div class="thumb">
+                                                                                <a href="#">
+                                                                                    <img alt=""
+                                                                                        src="images/post-171-250x141.jpg">
+                                                                                </a>
+                                                                            </div>
+                                                                            <h4 class="sc_blogger_title sc_title">
+                                                                                <a href="#">Fusce faucibus pharetra
+                                                                                    purus</a>
+                                                                            </h4>
+                                                                            <div class="sc_blogger_content">
+                                                                                Fusce faucibus pharetra purus, in cursus
+                                                                                tortor rhoncus porta. Maecenas vel
+                                                                                hendrerit lectus. Sed quis volutpat
+                                                                                risus, id placerat nibh. Duis luctus
+                                                                                turpis sed libero ornare tincidunt. Ut
+                                                                                eleifend...
+                                                                            </div>
+                                                                        </article>
+                                                                        <article class="sc_blogger_item">
+                                                                            <div class="thumb">
+                                                                                <a href="#">
+                                                                                    <img alt=""
+                                                                                        src="images/post-131-250x141.jpg">
+                                                                                </a>
+                                                                            </div>
+                                                                            <h4 class="sc_blogger_title sc_title">
+                                                                                <a href="#">Curabitur porta nisl sit
+                                                                                    amet</a>
+                                                                            </h4>
+                                                                            <div class="sc_blogger_content">
+                                                                                Curabitur porta nisl sit amet justo
+                                                                                ultricies, maximus ullamcorper lectus
+                                                                                accumsan. Etiam ut dapibus risus.
+                                                                                Vestibulum ante ipsum primis in faucibus
+                                                                                orci luctus et ultrices posuere cubilia
+                                                                                Curae...
+                                                                            </div>
+                                                                        </article>
+                                                                        <article class="sc_blogger_item">
+                                                                            <div class="thumb">
+                                                                                <a href="#">
+                                                                                    <img alt=""
+                                                                                        src="images/post-121-250x141.jpg">
+                                                                                </a>
+                                                                            </div>
+                                                                            <h4 class="sc_blogger_title sc_title">
+                                                                                <a href="#">Nam eget dolor rutrum</a>
+                                                                            </h4>
+                                                                            <div class="sc_blogger_content">
+                                                                                Nam eget dolor rutrum, malesuada lorem
+                                                                                eu, malesuada neque. Donec varius,
+                                                                                tellus et facilisis rutrum, quam augue
+                                                                                tincidunt neque, a elementum eros nunc
+                                                                                sit amet libero. Curabitur accumsan
+                                                                                mollis...
+                                                                            </div>
+                                                                        </article>
+                                                                        <article
+                                                                            class="sc_blogger_item sc_blogger_item_last">
+                                                                            <div class="thumb">
+                                                                                <a href="#">
+                                                                                    <img alt=""
+                                                                                        src="images/post-111-250x141.jpg">
+                                                                                </a>
+                                                                            </div>
+                                                                            <h4 class="sc_blogger_title sc_title">
+                                                                                <a href="#">Vestibulum quam massa</a>
+                                                                            </h4>
+                                                                            <div class="sc_blogger_content">
+                                                                                Vestibulum quam massa, bibendum eu
+                                                                                ultrices et, semper et erat. Sed
+                                                                                porttitor felis ac dolor fringilla
+                                                                                feugiat. Aliquam et odio vehicula,
+                                                                                tincidunt ipsum at, semper ipsum. Fusce
+                                                                                risus ligula...
+                                                                            </div>
+                                                                        </article>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div id="tab_politics_scroll_bar"
+                                                                class="sc_scroll_bar sc_scroll_bar_vertical tab_politics_scroll_bar">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /Tab Politics -->
+                                                    <!-- Tab Charity -->
+                                                    <div id="tab_charity" class="sc_tabs_content even">
+                                                        <div id="tab_charity_scroll"
+                                                            class="sc_scroll sc_scroll_vertical height_230">
+                                                            <div class="sc_scroll_wrapper swiper-wrapper">
+                                                                <div class="sc_scroll_slide swiper-slide">
+                                                                    <div id="sc_blogger_4"
+                                                                        class="sc_blogger sc_blogger_vertical style_image style_image_tiny">
+                                                                        <article class="sc_blogger_item">
+                                                                            <div class="thumb">
+                                                                                <a href="#">
+                                                                                    <img alt=""
+                                                                                        src="images/post-011-250x141.jpg">
+                                                                                </a>
+                                                                            </div>
+                                                                            <h4 class="sc_blogger_title sc_title">
+                                                                                <a href="#">Main principle – stability
+                                                                                    in the future!</a>
+                                                                            </h4>
+                                                                            <div class="sc_blogger_content">
+                                                                                Aenean convallis elementum sollicitudin.
+                                                                                Duis suscipit ex eget sagittis finibus.
+                                                                                Pellentesque in eleifend enim, eget
+                                                                                sagittis erat. Nulla vestibulum lorem
+                                                                                elit. Integer eget porttitor felis...
+                                                                            </div>
+                                                                        </article>
+                                                                        <article class="sc_blogger_item">
+                                                                            <div class="thumb">
+                                                                                <a href="#">
+                                                                                    <img alt=""
+                                                                                        src="images/post-021-250x141.jpg">
+                                                                                </a>
+                                                                            </div>
+                                                                            <h4 class="sc_blogger_title sc_title">
+                                                                                <a href="#">We must once again come
+                                                                                    together.</a>
+                                                                            </h4>
+                                                                            <div class="sc_blogger_content">
+                                                                                Nulla tempus massa libero, at luctus
+                                                                                lorem sagittis sit amet. Maecenas
+                                                                                faucibus dapibus nisl, in euismod nunc
+                                                                                efficitur vitae. Mauris blandit ut
+                                                                                tellus ac eleifend. Maecenas sit amet
+                                                                                neque nibh...
+                                                                            </div>
+                                                                        </article>
+                                                                        <article class="sc_blogger_item">
+                                                                            <div class="thumb">
+                                                                                <a href="#">
+                                                                                    <img alt=""
+                                                                                        src="images/post-031-250x141.jpg">
+                                                                                </a>
+                                                                            </div>
+                                                                            <h4 class="sc_blogger_title sc_title">
+                                                                                <a href="#">A simple plan to fix our
+                                                                                    economy.</a>
+                                                                            </h4>
+                                                                            <div class="sc_blogger_content">
+                                                                                Nunc id purus porta, dignissim ligula
+                                                                                sit amet, laoreet odio. Nunc dignissim
+                                                                                venenatis dolor, eu dictum libero mollis
+                                                                                at. Phasellus ac feugiat quam. Morbi at
+                                                                                est ligula. Praesent ullamcorper...
+                                                                            </div>
+                                                                        </article>
+                                                                        <article class="sc_blogger_item">
+                                                                            <div class="thumb">
+                                                                                <a href="#">
+                                                                                    <img alt=""
+                                                                                        src="images/post-041-250x141.jpg">
+                                                                                </a>
+                                                                            </div>
+                                                                            <h4 class="sc_blogger_title sc_title">
+                                                                                <a href="#">I’m asking you to
+                                                                                    believe</a>
+                                                                            </h4>
+                                                                            <div class="sc_blogger_content">
+                                                                                Suspendisse vitae leo dapibus,
+                                                                                vestibulum diam ac, malesuada libero.
+                                                                                Nunc lacinia pulvinar velit. Vestibulum
+                                                                                ante ipsum primis in faucibus orci
+                                                                                luctus et ultrices posuere cubilia
+                                                                                Curae...
+                                                                            </div>
+                                                                        </article>
+                                                                        <article
+                                                                            class="sc_blogger_item sc_blogger_item_last">
+                                                                            <div class="thumb">
+                                                                                <a href="#">
+                                                                                    <img alt=""
+                                                                                        src="images/post-051-250x141.jpg">
+                                                                                </a>
+                                                                            </div>
+                                                                            <h4 class="sc_blogger_title sc_title">
+                                                                                <a href="#">Vestibulum iaculis nisi
+                                                                                    est</a>
+                                                                            </h4>
+                                                                            <div class="sc_blogger_content">
+                                                                                Vestibulum iaculis nisi est, ut tempus
+                                                                                odio placerat sit amet. Curabitur ligula
+                                                                                ipsum, aliquet at metus sit amet,
+                                                                                tincidunt volutpat est. Quisque ac arcu
+                                                                                ac eros pretium volutpat. Sed a dolor...
+                                                                            </div>
+                                                                        </article>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div id="tab_charity_scroll_bar"
+                                                                class="sc_scroll_bar sc_scroll_bar_vertical tab_charity_scroll_bar">
+                                                            </div>
+                                                        </div>

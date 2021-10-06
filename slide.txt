@@ -1,0 +1,104 @@
+<div class="sliderHomeBullets slider_engine_revo slider_alias_revo-fullscreen">
+                    <div id="rev_slider_2_1_wrapper"
+                        class="rev_slider_wrapper fullscreen-container rs_custom_bg1 padding_0">
+                        <div id="rev_slider_2_1" class="rev_slider fullscreenbanner display_none">
+                            <ul>
+
+                                <!-- Slide 1 -->
+                                <li data-transition="random" data-slotamount="7" data-masterspeed="300"
+                                    data-saveperformance="off" class="overlay_bg_7 _slide1">
+                                    <img src="images/politics-slide-11.jpg" alt="" data-bgposition="center center"
+                                        data-bgfit="cover" data-bgrepeat="no-repeat">
+                                    <div class="tp-caption _slide1_img randomrotate rs-parallaxlevel-1" data-x="227"
+                                        data-y="center" data-voffset="-57" data-speed="500" data-start="1500"
+                                        data-easing="Power3.easeInOut" data-elementdelay="0.1"
+                                        data-endelementdelay="0.1" data-endspeed="300">
+                                        <img src="images/politics-slide-1-2.png" alt="" data-ww="105" data-hh="96">
+                                    </div>
+                                    <div class="tp-caption _title lfr skewtorightshort tp-resizeme rs-parallaxlevel-1"
+                                        data-x="10" data-y="490" data-voffset="45" data-speed="500" data-start="2000"
+                                        data-easing="Power3.easeInOut" data-splitin="chars" data-splitout="words"
+                                        data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
+                                        Justify & Honesty
+                                    </div>
+                                    <div class="tp-caption _slide1_text tp-fade tp-resizeme rs-parallaxlevel-1"
+                                        data-x="153" data-y="center" data-voffset="107" data-speed="500"
+                                        data-start="2500" data-easing="Power3.easeInOut" data-splitin="none"
+                                        data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1"
+                                        data-endspeed="300">
+                                        Ideology to the people
+                                    </div>
+                                </li>
+
+                                <!-- Slide 2  -->
+                                <li data-transition="random" data-slotamount="7" data-masterspeed="300"
+                                    data-saveperformance="off" class="overlay_bg_9 _slide2">
+                                    <img src="images/politics-slide-21.jpg" alt="" data-bgposition="center center"
+                                        data-bgfit="cover" data-bgrepeat="no-repeat">
+                                    <div class="tp-caption _slide2_img lft rs-parallaxlevel-1" data-x="right"
+                                        data-hoffset="-226" data-y="center" data-voffset="-126" data-speed="500"
+                                        data-start="1500" data-easing="easeOutBounce" data-elementdelay="0.1"
+                                        data-endelementdelay="0.1" data-endspeed="300">
+                                        <img src="images/politics-slide-2-2.png" alt="" data-ww="149" data-hh="81">
+                                    </div>
+                                    <div class="tp-caption _slide2_text randomrotate tp-resizeme rs-parallaxlevel-1"
+                                        data-x="right" data-hoffset="-64" data-y="center" data-voffset="-24"
+                                        data-speed="500" data-start="2000" data-easing="Power3.easeInOut"
+                                        data-splitin="none" data-splitout="none" data-elementdelay="0.1"
+                                        data-endelementdelay="0.1" data-endspeed="300">
+                                        If one voice can change a ROOM than it can change a CITY
+                                    </div>
+                                    <div class="tp-caption _slide2_title sfb tp-resizeme rs-parallaxlevel-1"
+                                        data-x="right" data-hoffset="-20" data-y="510" data-voffset="52"
+                                        data-speed="500" data-start="2500" data-easing="Power3.easeInOut"
+                                        data-splitin="chars" data-splitout="words" data-elementdelay="0.1"
+                                        data-endelementdelay="0.1" data-endspeed="300">
+                                        Change We Need
+                                    </div>
+                                    <div class="tp-caption _text sfb tp-resizeme rs-parallaxlevel-1" data-x="right"
+                                        data-hoffset="-377" data-y="center" data-voffset="142" data-speed="500"
+                                        data-start="3000" data-easing="Power3.easeInOut" data-splitin="none"
+                                        data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1"
+                                        data-endspeed="300">
+                                        <a href="#" class="tp-button theme_accent2_bgc order">PURCHASE</a>
+                                    </div>
+                                </li>
+                                <!-- Slide 3  -->
+                                <li data-transition="random" data-slotamount="7" data-masterspeed="300"
+                                    data-saveperformance="off" class="overlay_bg_6 _slide3">
+                                    <img src="images/politics-slide-31.jpg" alt="" data-bgposition="center center"
+                                        data-bgfit="cover" data-bgrepeat="no-repeat">
+                                    <div class="tp-caption _slide3_img skewfromleft rs-parallaxlevel-1" data-x="right"
+                                        data-hoffset="-338" data-y="188" data-speed="500" data-start="1500"
+                                        data-easing="easeOutBounce" data-elementdelay="0.1" data-endelementdelay="0.1"
+                                        data-end="6700" data-endspeed="300">
+                                        <img src="images/politics-slide-3-2.png" alt="" data-ww="94" data-hh="111">
+                                    </div>
+                                    <div class="tp-caption _title randomrotate tp-resizeme rs-parallaxlevel-1"
+                                        data-x="right" data-hoffset="-51" data-y="316" data-speed="500"
+                                        data-start="2000" data-easing="Sine.easeOut" data-splitin="none"
+                                        data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1"
+                                        data-end="6700" data-endspeed="300">
+                                        We need your vote!
+                                    </div>
+                                    <div class="tp-caption _slide3_text lfb tp-resizeme rs-parallaxlevel-1"
+                                        data-x="right" data-hoffset="-13" data-y="426" data-speed="500"
+                                        data-start="2500" data-easing="Sine.easeOut" data-splitin="none"
+                                        data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1"
+                                        data-end="6700" data-endspeed="300">
+                                        RightWay political theme on Theme Forest! RightWay is ideal for
+                                        <br> political campaign sites that need to promote candidates into office and
+                                        generate funding.
+                                    </div>
+                                    <div class="tp-caption _text randomrotate tp-resizeme rs-parallaxlevel-1"
+                                        data-x="right" data-hoffset="-458" data-y="498" data-speed="300"
+                                        data-start="3000" data-easing="Sine.easeOut" data-splitin="none"
+                                        data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1"
+                                        data-end="6700" data-endspeed="300">
+                                        <a href="#" class="tp-button theme_accent2_bgc order">PURCHASE</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
