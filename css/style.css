@@ -975,8 +975,8 @@ header.menu_right .logo_slogan { display:none; }
 	     -o-transition: width 0.3s ease-out;
 	        transition: width 0.3s ease-out;}
 .topWrap .topMenuStyleLine > ul > li:hover:after{ width: 100%;}
-.topWrap .topMenuStyleLine > ul > li > a { display:block; padding:0 20px; height:39px; line-height:39px; text-transform:uppercase; text-decoration:none; color:#fff;  z-index:88; position: relative; font-size: 12px; font-weight: 300; text-align: center;}
-.topWrap .topMenuStyleLine > ul > li ul { width: 200px; display: none; position:absolute; left:0px; top: 100px; padding:0 0 10px 0; margin:0px; border-width:0 1px 1px 1px; border-style: solid;  z-index:2999; font-weight: 300; font-size: 12px; }
+.topWrap .topMenuStyleLine > ul > li > a { display:block; padding:0 20px; height:40px; line-height:39px; text-transform:uppercase; text-decoration:none; color:#fff;  z-index:88; position: relative; font-size: 12px; font-weight: 300; text-align: center;}
+.topWrap .topMenuStyleLine > ul > li ul { width: 300px; display: none; position:absolute; left:0px; top: 100px; padding:0 0 10px 0; margin:0px; border-width:0 1px 1px 1px; border-style: solid;  z-index:2999; font-weight: 300; font-size: 12px; }
 .topWrap .topMenuStyleLine > ul > li:not(.custom_view_item) ul li.menu-item-has-children > a:after { font-size: 8px; font-family: "fontello"; content: '\e826'; height:30px; width:10px; line-height:30px; position:absolute; top:0; right:15px;  text-align:right;}
 .topWrap .topMenuStyleLine > ul > li ul a{ position:relative;}
 .topWrap .topMenuStyleLine > ul > li ul li { list-style:none; display:block;  position:relative;	  }
