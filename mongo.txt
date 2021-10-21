@@ -1,0 +1,1 @@
+mongodb://demomail123:<password>@cluster0-shard-00-00.9bpje.mongodb.net:27017,cluster0-shard-00-01.9bpje.mongodb.net:27017,cluster0-shard-00-02.9bpje.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-e1xu7s-shard-0&authSource=admin&retryWrites=true&w=majority

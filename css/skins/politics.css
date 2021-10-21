@@ -455,7 +455,7 @@ h3, .h3, h3 > a, .h3 > a,
 .theme_accent2_border,
 /* Added in politics */
 .topWrap .topMenuStyleLine > ul > li ul,
-.sliderHomeBullets.slider_alias_13 .order a:hover { border-color:#e33c1c; }
+.sliderHomeBullets.slider_alias_13 .order a:hover { border-color:rgb(56, 20, 173.8); }
 
 /* Added in politics */
 .topWrap .openRightMenu:hover,

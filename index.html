@@ -10,10 +10,21 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-        crossorigin="anonymous"></script>
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
+    <!-- Bootstrap CSS -->
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
+    <!-- Font Awesome CSS -->
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+    <!-- jQuery -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <!-- Bootstrap JS -->
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js'></script>
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.3.1"
         type="text/css" media="all" />
@@ -27,7 +38,8 @@
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
     <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
-
+    <link rel="stylesheet" href="css/demo.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/login.css" type="text/css" media="all" />
     <link rel="stylesheet" href="css/fontello/css/fontello.css" type="text/css" media="all" />
     <link rel="stylesheet" href="css/fontello/css/animation.min.css" type="text/css" media="all" />
     <link rel="stylesheet" href="css/fontello/css/fontello-admin.min.css" type="text/css" media="all" />
@@ -112,23 +124,53 @@
                                         </li>
                                         <!-- /Tools & Pages -->
                                         <!-- Layouts & Hovers -->
-                                        <li class="menu-item menu-item-has-children">
-                                            <a title="Layouts and hovers" href="#">
-                                                Register
-                                            </a>
-
-                                        </li>
+                                        
                                         <!-- /Layouts & Hovers -->
                                         <!-- Post Pages -->
-                                        <li class="menu-item menu-item-has-children">
-                                            <a title="Posts pages" href="#">
-                                                Login
-                                            </a>
 
+                                        <li class="menu-item menu-item-has-children">
+
+                                            <a class="sf-with-ul"><b>Login </b> </a>
+                                            <ul class="sub-menu row col-md-12"
+                                                style="display: none; background-color: rgb(255, 255, 255);"
+                                                id="login-dp">
+                                                <span style="padding-bottom: 20px;">Login via </span>
+                                                <form class="form" role="form" method="post" action="login"
+                                                    accept-charset="UTF-8" id="login-nav" style="padding-top: 10px;">
+                                                    <div class="form-group">
+                                                        <label class="sr-only" for="exampleInputEmail2">Email
+                                                            address</label>
+                                                        <input type="email" class="form-control" id="exampleInputEmail2"
+                                                            placeholder="Email address" required>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="sr-only"
+                                                            for="exampleInputPassword2">Password</label>
+                                                        <input type="password" class="form-control"
+                                                            id="exampleInputPassword2" placeholder="Password" required>
+                                                        <div class="help-block text-right"><a href="">Forget the
+                                                                password ?</a></div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+                                                    </div>
+                                                    <div class="checkbox">
+                                                        <label>
+                                                            <input type="checkbox"> keep me logged-in
+                                                        </label>
+                                                    </div>
+                                                </form>
+                                                <div class="bottom text-center">
+                                                    New here ? <a href="Registration/Reg.html"><b>Register</b></a>
+                                                </div>
+                                            </ul>
                                         </li>
+
+
+
                                         <!-- /Post Pages -->
                                         <li class="menu-item thumb_title custom_view_item">
-                                            <a title="All products" href="homepage-e-commerce.html">
+                                            <a title="All products" href="#">
                                                 Contact US
                                             </a>
                                         </li>
@@ -196,8 +238,9 @@
                                     class="sc_section texture_bg_11 margin_bottom_1em_imp text-center font-size_0_9em padding_2em">
                                     <a href="#">
 
-                                       
-                                        <span class="iconify" data-icon="fa-solid:vote-yea"style="font-size:100px; padding-top: 20px;";></span>
+
+                                        <span class="iconify" data-icon="fa-solid:vote-yea"
+                                            style="font-size:100px; padding-top: 20px;" ;></span>
 
 
                                         <h4 class="sc_title sc_title_iconed text-center color_fff margin_bottom_0_1em
@@ -210,9 +253,10 @@
                             <div class="columns1_4 sc_column_item sc_column_item_2 even">
                                 <div
                                     class="sc_section texture_bg_11 text-center margin_bottom_1em_imp font-size_0_9em padding_2em">
-                                    <a href="#">
-                                        
-                                        <span class="iconify" data-icon="ic:outline-update" style="font-size:100px; padding-top: 20px;"></span>
+                                    <a href="Update/index.html">
+
+                                        <span class="iconify" data-icon="ic:outline-update"
+                                            style="font-size:100px; padding-top: 20px;"></span>
 
 
                                         <h4
@@ -785,7 +829,9 @@
                                                                             <a href="posts-slider.html">Gujrat,</a>
                                                                         </div>
                                                                         <h2 class="sc_slider_subtitle">
-                                                                            <a href="https://en.wikipedia.org/wiki/Statue_of_Unity">Statue of unity</a>
+                                                                            <a
+                                                                                href="https://en.wikipedia.org/wiki/Statue_of_Unity">Statue
+                                                                                of unity</a>
                                                                         </h2>
                                                                     </div>
                                                                 </li>
@@ -796,7 +842,9 @@
                                                                             <a href="posts-slider.html">Kolkata,</a>
                                                                         </div>
                                                                         <h2 class="sc_slider_subtitle">
-                                                                            <a href="https://en.wikipedia.org/wiki/High_courts_of_India">High Court</a>
+                                                                            <a
+                                                                                href="https://en.wikipedia.org/wiki/High_courts_of_India">High
+                                                                                Court</a>
                                                                         </h2>
                                                                     </div>
                                                                 </li>
@@ -807,7 +855,9 @@
                                                                             <a href="posts-slider.html">Delhi,</a>
                                                                         </div>
                                                                         <h2 class="sc_slider_subtitle">
-                                                                            <a href="https://en.wikipedia.org/wiki/Rajya_Sabha">Rajya Sabha</a>
+                                                                            <a
+                                                                                href="https://en.wikipedia.org/wiki/Rajya_Sabha">Rajya
+                                                                                Sabha</a>
                                                                         </h2>
                                                                     </div>
                                                                 </li>
@@ -815,10 +865,13 @@
                                                                     class="swiper-slide sc_swiper1_bg_custom4 height_310 width_100per">
                                                                     <div class="sc_slider_info content-slide">
                                                                         <div class="sc_slider_category">
-                                                                            <a href="posts-slider.html">Agra (Delhi),</a>
+                                                                            <a href="posts-slider.html">Agra
+                                                                                (Delhi),</a>
                                                                         </div>
                                                                         <h2 class="sc_slider_subtitle">
-                                                                            <a href="https://en.wikipedia.org/wiki/Red_Fort">Red Fort</a>
+                                                                            <a
+                                                                                href="https://en.wikipedia.org/wiki/Red_Fort">Red
+                                                                                Fort</a>
                                                                         </h2>
                                                                     </div>
                                                                 </li>
@@ -829,7 +882,9 @@
                                                                             <a href="posts-slider.html">Delhi,</a>
                                                                         </div>
                                                                         <h2 class="sc_slider_subtitle">
-                                                                            <a href="https://en.wikipedia.org/wiki/India_Gate">India Gate</a>
+                                                                            <a
+                                                                                href="https://en.wikipedia.org/wiki/India_Gate">India
+                                                                                Gate</a>
                                                                         </h2>
                                                                     </div>
                                                                 </li>
@@ -837,10 +892,13 @@
                                                                     class="swiper-slide sc_swiper1_bg_custom6 height_310 width_100per">
                                                                     <div class="sc_slider_info content-slide">
                                                                         <div class="sc_slider_category">
-                                                                            <a href="posts-slider.html">Agra (Delhi),</a>
+                                                                            <a href="posts-slider.html">Agra
+                                                                                (Delhi),</a>
                                                                         </div>
                                                                         <h2 class="sc_slider_subtitle">
-                                                                            <a href="https://en.wikipedia.org/wiki/Taj_Mahal">Taj Mahal</a>
+                                                                            <a
+                                                                                href="https://en.wikipedia.org/wiki/Taj_Mahal">Taj
+                                                                                Mahal</a>
                                                                         </h2>
                                                                     </div>
                                                                 </li>
@@ -862,74 +920,103 @@
                                                                         <ul>
                                                                             <li class="active">
                                                                                 <div class="slide_pager">
-                                                                                    <div class="slide_date " style="width: 90px;">31.10.2018
+                                                                                    <div class="slide_date "
+                                                                                        style="width: 90px;">31.10.2018
                                                                                     </div>
                                                                                     <div class="slide_info">
-                                                                                        <h4 class="slide_title">Statue of unity</h4>
+                                                                                        <h4 class="slide_title">Statue
+                                                                                            of unity</h4>
                                                                                         <div class="slide_tags"><span
-                                                                                                class="slide_tag">The statue has been built as an ode to the Iron Man of India.
+                                                                                                class="slide_tag">The
+                                                                                                statue has been built as
+                                                                                                an ode to the Iron Man
+                                                                                                of India.
                                                                                             </span> </div>
                                                                                     </div>
                                                                                 </div>
                                                                             </li>
                                                                             <li>
                                                                                 <div class="slide_pager">
-                                                                                    <div class="slide_date" style="width: 90px;" >01.07.1862
+                                                                                    <div class="slide_date"
+                                                                                        style="width: 90px;">01.07.1862
                                                                                     </div>
                                                                                     <div class="slide_info">
-                                                                                        <h4 class="slide_title">High Court
+                                                                                        <h4 class="slide_title">High
+                                                                                            Court
                                                                                         </h4>
                                                                                         <div class="slide_tags"><span
-                                                                                                class="slide_tag">The Calcutta High Court is the oldest High Court in India. </span> </div>
+                                                                                                class="slide_tag">The
+                                                                                                Calcutta High Court is
+                                                                                                the oldest High Court in
+                                                                                                India. </span> </div>
                                                                                     </div>
                                                                                 </div>
                                                                             </li>
                                                                             <li>
                                                                                 <div class="slide_pager">
-                                                                                
-                                                                                    <div class="slide_date" style="width: 90px;">03.04.1952
+
+                                                                                    <div class="slide_date"
+                                                                                        style="width: 90px;">03.04.1952
                                                                                     </div>
                                                                                     <div class="slide_info">
-                                                                                        <h4 class="slide_title">Rajya Sabha</h4>
+                                                                                        <h4 class="slide_title">Rajya
+                                                                                            Sabha</h4>
                                                                                         <div class="slide_tags"><span
-                                                                                                class="slide_tag">The Rajya Sabha is the upper house of the Parliament of India. <br> </span> </div>
+                                                                                                class="slide_tag">The
+                                                                                                Rajya Sabha is the upper
+                                                                                                house of the Parliament
+                                                                                                of India. <br> </span>
+                                                                                        </div>
                                                                                     </div>
                                                                                 </div>
                                                                             </li>
                                                                             <li>
                                                                                 <div class="slide_pager">
-                                                                                    <div class="slide_date"style="width: 90px;">06.04.1648
+                                                                                    <div class="slide_date"
+                                                                                        style="width: 90px;">06.04.1648
                                                                                     </div>
                                                                                     <div class="slide_info">
-                                                                                        <h4 class="slide_title">Red Fort</h4>
+                                                                                        <h4 class="slide_title">Red Fort
+                                                                                        </h4>
                                                                                         <div class="slide_tags"><span
-                                                                                                class="slide_tag">The Red fort is a historic fort in Old Delhi.</span> </div>
+                                                                                                class="slide_tag">The
+                                                                                                Red fort is a historic
+                                                                                                fort in Old
+                                                                                                Delhi.</span> </div>
                                                                                     </div>
                                                                                 </div>
                                                                             </li>
                                                                             <li>
-                                                                                
+
                                                                                 <div class="slide_pager">
-                                                                                    <div class="slide_date"style="width: 90px;">10.02.1921
+                                                                                    <div class="slide_date"
+                                                                                        style="width: 90px;">10.02.1921
                                                                                     </div>
                                                                                     <div class="slide_info">
                                                                                         <h4 class="slide_title">
                                                                                             India Gate
                                                                                         </h4>
                                                                                         <div class="slide_tags"><span
-                                                                                                class="slide_tag">The India Gate is a war memorial.  </span> </div>
+                                                                                                class="slide_tag">The
+                                                                                                India Gate is a war
+                                                                                                memorial. </span> </div>
                                                                                     </div>
                                                                                 </div>
                                                                             </li>
                                                                             <li>
-                                                                                
+
                                                                                 <div class="slide_pager">
-                                                                                    <div class="slide_date"style="width: 90px;">1648 AD
+                                                                                    <div class="slide_date"
+                                                                                        style="width: 90px;">1648 AD
                                                                                     </div>
                                                                                     <div class="slide_info">
-                                                                                        <h4 class="slide_title">Taj Mahal</h4>
+                                                                                        <h4 class="slide_title">Taj
+                                                                                            Mahal</h4>
                                                                                         <div class="slide_tags"><span
-                                                                                                class="slide_tag">The Taj Mahal is the jewel of Muslim art in India.</span> </div>
+                                                                                                class="slide_tag">The
+                                                                                                Taj Mahal is the jewel
+                                                                                                of Muslim art in
+                                                                                                India.</span> </div>
                                                                                     </div>
                                                                                 </div>
                                                                             </li>
@@ -1149,13 +1236,16 @@
                                             <!-- Tabs -->
                                             <div
                                                 class="columns2_3 sc_column_item sc_column_item_2 even span_2 text-none">
-                                                <iframe frameborder="0" marginheight="0" marginwidth="0" height="520" src="https://cdn.crichd.pro/embed2.php?id=starsp&q=Star Sports" name="iframe_a" scrolling="no" width="100%">Your Browser Do not Support Iframe</iframe>
+                                                <iframe frameborder="0" marginheight="0" marginwidth="0" height="520"
+                                                    src="https://cdn.crichd.pro/embed2.php?id=starsp&q=Star Sports"
+                                                    name="iframe_a" scrolling="no" width="100%">Your Browser Do not
+                                                    Support Iframe</iframe>
 
 
                                             </div>
                                             <!-- /Tab Charity -->
                                             <!-- Tab Persons -->
-                                            
+
                                         </div>
                                     </div>
                                     <!-- /Tabs -->
@@ -1175,22 +1265,22 @@
         <hr>
         <footer class="footerWrap footerStyleLight contactFooterWrap" style="padding-top:0px ;height:0px;">
             <div class="main contactFooter">
-                <section ></section>
-                    <div class="logo">
-                        <a href="index.html">
-                            <img src="images/logo-footer.png" alt="">
-                        </a>
-                    </div>
-                    
-                   
+                <section></section>
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo-footer.png" alt="">
+                    </a>
+                </div>
+
+
                 </section>
             </div>
         </footer>
         <!-- /Footer Contacts -->
         <!-- Google Map -->
-        <div id="sc_googlemap_1" class="sc_googlemap width_100per height_400" style="padding-top: 100px;" data-address="San Francisco, CA 94102, US"
-            data-latlng="" data-zoom="13" data-style="style1" data-title="San Francisco, CA 94102, US"
-            data-description="San Francisco, CA 94102, US" data-point=""></div>
+        <div id="sc_googlemap_1" class="sc_googlemap width_100per height_400" style="padding-top: 100px;"
+            data-address="San Francisco, CA 94102, US" data-latlng="" data-zoom="13" data-style="style1"
+            data-title="San Francisco, CA 94102, US" data-description="San Francisco, CA 94102, US" data-point=""></div>
         <!-- /Google Map -->
         <!-- Footer Widgets -->
         <footer class="footerWrap footerStyleLight">
@@ -1370,7 +1460,8 @@
                         <h3 class="title">Flickr photos</h3>
                         <div class="flickr_images">
                             <script type="text/javascript"
-                                src="http://www.flickr.com/badge_code_v2.gne?count=9&#038;display=random&#038;flickr_display=random&#038;size=s&#038;layout=x&#038;source=user&#038;user=52617155%40N08"></script>
+                                src="http://www.flickr.com/badge_code_v2.gne?count=9&#038;display=random&#038;flickr_display=random&#038;size=s&#038;layout=x&#038;source=user&#038;user=52617155%40N08">
+                            </script>
                         </div>
                     </aside>
                     <!-- /Widget Flickr -->
@@ -1393,7 +1484,7 @@
                                 <span class="facebook_custom_bg"></span>
                             </a>
                         </li>
-                       
+
                         <li>
                             <a class="social_icons social_twitter twitter_custom_bg" target="_blank"
                                 href="http://twitter.com">
@@ -1406,7 +1497,7 @@
                                 <span class="gplus_custom_bg"></span>
                             </a>
                         </li>
-                    
+
                         <li>
                             <a class="social_icons social_youtube youtube_custom_bg" target="_blank"
                                 href="http://youtube.com">
@@ -1461,7 +1552,8 @@
     <!--<script type="text/javascript" src="js/_customizer.js"></script>-->
 
     <script defer src="https://static.cloudflareinsights.com/beacon.min.js"
-        data-cf-beacon='{"rayId":"6964e7752d874da5","token":"dab7be3e6ab04952b40d6c8e93f6cc2a","version":"2021.8.1","si":10}'></script>
+        data-cf-beacon='{"rayId":"6964e7752d874da5","token":"dab7be3e6ab04952b40d6c8e93f6cc2a","version":"2021.8.1","si":10}'>
+    </script>
 </body>
 
 </html>
